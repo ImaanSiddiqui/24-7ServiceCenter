@@ -114,7 +114,7 @@ const Contact = () => {
       <div className="contact-info">
         <div className="info-item">
           <FaMapMarkerAlt className="icon" />
-          <p>123 FixIt Street, Pune, India</p>
+          <p>Eon IT Park Kharadi, Pune, India</p>
         </div>
         <div className="info-item">
           <FaPhoneAlt className="icon" />
