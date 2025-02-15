@@ -1,0 +1,22 @@
+.floating-call-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffcc00; /* Yellow color for attention */
+    color: #003366;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 24px;
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.floating-call-btn:hover {
+    background-color: #ffdb4d;
+}
+
+.call-icon {
+    font-size: 24px;
+}

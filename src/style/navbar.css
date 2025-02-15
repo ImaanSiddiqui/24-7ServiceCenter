@@ -1,0 +1,105 @@
+/* General Navbar Styles */
+.navbar {
+    background: #003366; /* Dark blue theme for a professional AC service feel */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar Container */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+  }
+
+  .logo img {
+    height: px; /* Increased size */
+    max-height: 100px; /* Ensuring it doesn't get too large */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+  
+  /* Logo */
+  /* .logo img {
+    height: 300px;
+  } */
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc00; /* Yellow accent */
+  }
+  
+  /* Book Now Button */
+  .book-now {
+    background: #ffcc00;
+    color: #003366;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .book-now:hover {
+    background: #ffdb4d;
+  }
+  
+  /* Mobile Menu */
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 4px;
+    transition: 0.3s;
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: -100%;
+      width: 100%;
+      background: rgba(0, 51, 102, 0.95);
+      text-align: center;
+      padding: 20px 0;
+      transition: left 0.3s;
+    }
+  
+    .nav-links.open {
+      left: 0;
+    }
+  
+    .menu-icon {
+      display: flex;
+      margin-right: 20px;
+    }
+  }
+  

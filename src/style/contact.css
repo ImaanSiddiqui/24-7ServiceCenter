@@ -1,0 +1,148 @@
+.contact-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .contact-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Styling */
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .contact-form .btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.3s;
+  }
+  
+  .contact-form .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .status-message {
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    margin-top: 40px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  .info-item a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .info-item a:hover {
+    color: #007bff;
+  }
+  
+  /* WhatsApp & Call Buttons */
+  .contact-buttons {
+    margin-top: 30px;
+  }
+  
+  .whatsapp-btn,
+  .call-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .whatsapp-btn {
+    background-color: #25d366;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #1da851;
+  }
+  
+  .call-btn {
+    background-color: #007bff;
+  }
+  
+  .call-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 30px 15px;
+    }
+  
+    .contact-form {
+      padding: 15px;
+    }
+  
+    .contact-form .btn {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  
+    .whatsapp-btn,
+    .call-btn {
+      font-size: 1rem;
+      padding: 10px 15px;
+    }
+  }
+  
