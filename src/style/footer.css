@@ -61,4 +61,21 @@
     border-top: 1px solid #ffcc00;
     font-size: 14px;
   }
+
+
+  @media (max-width: 768px) {
+
+
+    .footer-links{
+      padding-left: 120px;
+    }
+
+     .footer-contact{
+      padding-left: 40px;
+    }
+
+    .footer-social{
+      padding-left: 80px;
+    }
+  }
   

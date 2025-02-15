@@ -136,7 +136,7 @@ const Contact = () => {
         >
           <FaWhatsapp className="icon" /> Chat on WhatsApp
         </a>
-        <a href="tel:+919876543210" className="call-btn">
+        <a href="tel:+918446167886" className="call-btn">
           <FaPhoneAlt className="icon" /> Call Now
         </a>
       </div>
