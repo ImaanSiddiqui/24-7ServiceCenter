@@ -87,7 +87,7 @@ const Contact = () => {
           />
           {errors.phone && <span className="error">{errors.phone}</span>}
 
-          <select name="product" value={formData.product} onChange={handleChange}>
+          <select className="selector" name="product" value={formData.product} onChange={handleChange}>
             <option value="">Select a Service</option>
             {products.map((product, index) => (
               <option key={index} value={product}>
@@ -118,7 +118,7 @@ const Contact = () => {
         </div>
         <div className="info-item">
           <FaPhoneAlt className="icon" />
-          <a href="tel:+919876543210">+91 8446167886</a>
+          <a href="tel:+918446167886">+91 8446167886</a>
         </div>
         <div className="info-item">
           <FaEnvelope className="icon" />
@@ -129,7 +129,7 @@ const Contact = () => {
       {/* WhatsApp and Call Buttons */}
       <div className="contact-buttons">
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/918446167886"
           className="whatsapp-btn"
           target="_blank"
           rel="noopener noreferrer"

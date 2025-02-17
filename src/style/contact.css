@@ -111,6 +111,15 @@
   .whatsapp-btn {
     background-color: #25d366;
   }
+
+  .selector{
+    width: 97%;
+    height: 40px;
+  }
+
+  .icon{
+    color: whitesmoke;
+  }
   
   .whatsapp-btn:hover {
     background-color: #1da851;
@@ -145,5 +154,7 @@
       font-size: 1rem;
       padding: 10px 15px;
     }
+
+  
   }
   
