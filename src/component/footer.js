@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="footer-contact">
           <h3>Contact Us</h3>
           <p>📍 Eon IT Park Kharadi, Pune, India</p>
-          <p id="number">📞 +91 8446167886</p>
+          <p id="number">📞 +91 9270950997</p>
           <p>✉ servicecentre374@gmail.com</p>
         </div>
 

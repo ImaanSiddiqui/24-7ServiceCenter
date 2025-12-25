@@ -4,7 +4,7 @@ import "../style/flotingcall.css";
 
 const FloatingCallButton = () => {
   return (
-    <a href="tel:+918446167886" className="floating-call-btn">
+    <a href="tel:+919270950997" className="floating-call-btn">
       <FaPhoneAlt className="call-icon" />
     </a>
   );

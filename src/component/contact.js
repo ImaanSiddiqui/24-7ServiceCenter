@@ -118,7 +118,7 @@ const Contact = () => {
         </div>
         <div className="info-item">
           <FaPhoneAlt className="icon" />
-          <a href="tel:+918446167886">+91 8446167886</a>
+          <a href="tel:+919270950997">+91 9270950997</a>
         </div>
         <div className="info-item">
           <FaEnvelope className="icon" />
@@ -129,14 +129,14 @@ const Contact = () => {
       {/* WhatsApp and Call Buttons */}
       <div className="contact-buttons">
         <a
-          href="https://wa.me/918446167886"
+          href="https://wa.me/919270950997"
           className="whatsapp-btn"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaWhatsapp className="icon" /> Chat on WhatsApp
         </a>
-        <a href="tel:+918446167886" className="call-btn">
+        <a href="tel:+919270950997" className="call-btn">
           <FaPhoneAlt className="icon" /> Call Now
         </a>
       </div>
