@@ -8,7 +8,7 @@ const LandingPage = () => {
     <div className="landing-page">
       <div className="overlay"></div>
       <div className="content">
-        <h1>Reliable AC Repair & Maintenance Services</h1>
+        <h1>Welcome To Customer Service Point 24/7</h1>
         <p>Expert technicians to keep your AC running smoothly. Fast, reliable, and affordable service.</p>
          <Link to= "contact"smooth={true} className="btn"> Get Service Now </Link>
       </div>
