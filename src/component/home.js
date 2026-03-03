@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/home.css";
 import { Link } from "react-scroll";
-import backgroundImage from "../assets/background.jpg"; // Make sure to add an image
+// import backgroundImage from "../assets/background.jpg"; // Make sure to add an image
 
 const LandingPage = () => {
   return (
